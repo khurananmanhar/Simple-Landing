@@ -8,10 +8,10 @@ class Nav extends React.Component{
                     <p>Landing</p>
                 </div>
                 <div>
-                    <a href="#" className="current">Home</a>
-                    <a href="#">About</a>
-                    <a href="#">Blog</a>
-                    <a href="#">Testimonials</a>
+                    <a href="#root" className="current">Home</a>
+                    <a href="#root">About</a>
+                    <a href="#root">Blog</a>
+                    <a href="#root">Testimonials</a>
                 </div>
             </div>
         )
