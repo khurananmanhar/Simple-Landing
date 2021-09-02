@@ -12,7 +12,7 @@ function App() {
         <Intro/>
       </div>
         <h2 className="servicesTitle">What We Do</h2>
-      <div className="services">
+      <div className="services" id="about">
       <Services/>
       </div>
       <ExtraServices/>
