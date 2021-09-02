@@ -14,10 +14,19 @@
   display: flex;
   justify-content: space-evenly;
 }
+.servicesTitle{
+  font-size: 40px;
+  text-align: center;
+  margin-top: 50px;
+}
 @media screen and (max-width: 1024px){
     .services{
       flex-direction: column;
       justify-content: center;
       align-items: center;
     }
+    .servicesTitle{
+      font-size: 35px;
+    }
 }
+
