@@ -26,10 +26,10 @@ class ExtraServices extends React.Component {
                         <p className="desc">{extras[0].desc}</p>
                         <p className='more'>Read More</p>
                     </div>
-                    <img src={extras[0].image} />
+                    <img src={extras[0].image} alt="Illustrations"/>
                 </div>
                 <div className='sepContainer'>
-                <img src={extras[1].image} />
+                <img src={extras[1].image} alt="Illustrations"/>
                     <div className="innerDiv">
                         <p className="title">{extras[1].title}</p>
                         <p className="desc">{extras[1].desc}</p>
