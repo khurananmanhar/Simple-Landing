@@ -17,3 +17,14 @@
 .navContainer .current{
     color: #DA0037;
 }
+@media screen and (max-width: 1024px){
+    .navContainer{
+        flex-direction: column;
+    }
+    .navContainer a{
+        font-size: 10px;
+    }
+    .navContainer p{
+        font-size: 25px;
+    }
+}

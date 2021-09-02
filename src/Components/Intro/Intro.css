@@ -4,17 +4,18 @@
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+    text-align: center;
 }
 .introContainer img{
-    width: 25%;
+    width: 100%;
 }
 .introContainer button{
-    padding: 15px;
+    padding: 10px;
     margin: 10px;
 }
 .introContainer button:hover{
     cursor: pointer;
-    background-color: #F7F8FA;
+    opacity: 0.8;
 }
 .introContainer .btnRed{
     background-color:#FEC4AF ;
@@ -24,4 +25,13 @@
 .introContainer .btnGreen{
     background-color: #B7EDDD;
     border:#B7EDDD solid 5px ;
+}
+.introContainer .introImg{
+    width: 45%;
+    text-align: center;
+}
+@media screen and (max-width: 1024px){
+    .introContainer .introImg{
+        width: 80%;
+    }
 }

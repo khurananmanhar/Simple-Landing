@@ -11,7 +11,9 @@ class Intro extends React.Component {
                     <button className="btnRed">Get Started</button>
                     <button className="btnGreen">Learn More</button>
                 </div>
+                <div className='introImg'>
                 <img src="https://www.bootstrapdash.com/demo/simple/images/Group171.svg" alt="Team Illustration"/>
+                </div>
             </div>
         )
     }

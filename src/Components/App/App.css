@@ -10,3 +10,14 @@
 .header{
   background-color: #F7F8FA;
 }
+.services{
+  display: flex;
+  justify-content: space-evenly;
+}
+@media screen and (max-width: 1024px){
+    .services{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+}
