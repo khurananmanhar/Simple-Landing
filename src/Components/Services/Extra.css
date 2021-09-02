@@ -1,0 +1,29 @@
+.sepContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.sepContainer img{
+    width: 30%;
+}
+
+.innerDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    margin: 15px;
+}
+@media screen and (max-width: 1024px){
+    .sepContainer{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .innerDiv{
+        width: 60%;
+    }
+    .sepContainer img{
+        width: 60%;
+    }
+}

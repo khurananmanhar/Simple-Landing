@@ -2,6 +2,7 @@ import './App.css';
 import Nav from "../Navbar/Nav"
 import Intro from '../Intro/Intro';
 import Services from '../Services/Services';
+import ExtraServices from '../Services/Extra';
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
       <div className="services">
       <Services/>
       </div>
-    </div>
+      <ExtraServices/>
+          </div>
   );
 }
 

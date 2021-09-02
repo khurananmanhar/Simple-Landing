@@ -2,22 +2,22 @@
     width: 20%;
     margin:5%;
 }
-.serviceContainer .title{
+ .title{
     font-size: 25px;
     font-weight:bold;
 }
-.serviceContainer .desc{
+ .desc{
     font-size: 15px;
     color: gray;
     margin-top: 15px;
 }
-.serviceContainer .more{
+ .more{
     color: gray;
     font-weight: bold;
     font-size: 12px;
     margin-top: 15px;
 }
-.serviceContainer .more:hover{
+ .more:hover{
     cursor: pointer;
     opacity: 0.8;
 }
