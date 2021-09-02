@@ -1,0 +1,27 @@
+.introContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.introContainer img{
+    width: 25%;
+}
+.introContainer button{
+    padding: 15px;
+    margin: 10px;
+}
+.introContainer button:hover{
+    cursor: pointer;
+    background-color: #F7F8FA;
+}
+.introContainer .btnRed{
+    background-color:#FEC4AF ;
+    border:#FEC4AF solid 5px ;
+
+}
+.introContainer .btnGreen{
+    background-color: #B7EDDD;
+    border:#B7EDDD solid 5px ;
+}
