@@ -14,10 +14,16 @@
   display: flex;
   justify-content: space-evenly;
 }
-.servicesTitle{
+.divTitles{
   font-size: 40px;
   text-align: center;
   margin-top: 50px;
+  font-weight: normal;
+}
+.blogsDiv{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
 }
 @media screen and (max-width: 1024px){
     .services{
@@ -27,6 +33,9 @@
     }
     .servicesTitle{
       font-size: 35px;
+    }
+    .blogsDiv{
+      flex-direction: column;
     }
 }
 
