@@ -25,6 +25,10 @@
   justify-content: space-evenly;
   margin-top: 20px;
 }
+.testContainer{
+  display: flex;
+  justify-content: space-evenly;
+}
 @media screen and (max-width: 1024px){
     .services{
       flex-direction: column;

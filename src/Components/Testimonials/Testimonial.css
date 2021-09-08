@@ -1,0 +1,23 @@
+.testimonial{
+display: flex;
+align-items: center;
+flex-direction: column;
+background-color: #F3F7FB;
+width: 80%;
+margin: 30px;
+}
+.testimonial:hover{
+    background-color: #e2e2e2;
+
+}
+.testimonial hr{
+    width: 20%;
+}
+.testimonial img{
+    border-radius:100% ;
+    margin: 20px;
+}
+.testimonial p{
+    text-align: center;
+    margin: 15px;
+}

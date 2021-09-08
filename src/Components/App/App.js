@@ -4,6 +4,7 @@ import Intro from '../Intro/Intro';
 import Services from '../Services/Services';
 import ExtraServices from '../Services/Extra';
 import Blogs from '../Blog/Blogs';
+import Testimonials from '../Testimonials/Testimonials';
 
 function App() {
   return (
@@ -20,6 +21,9 @@ function App() {
       <h2 className="divTitles">Blogs</h2>
       <div className="blogsDiv" id="blogs">
         <Blogs/>
+      </div>
+      <div className="testContainer">
+        <Testimonials/>
       </div>
           </div>
   );
