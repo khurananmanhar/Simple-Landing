@@ -22,6 +22,7 @@ function App() {
       <div className="blogsDiv" id="blogs">
         <Blogs/>
       </div>
+      <h2 className="divTitles">What our customers have to say</h2>
       <div className="testContainer">
         <Testimonials/>
       </div>

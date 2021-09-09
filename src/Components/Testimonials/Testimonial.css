@@ -2,16 +2,17 @@
 display: flex;
 align-items: center;
 flex-direction: column;
-background-color: #F3F7FB;
-width: 80%;
+background-color: #F7F8FA;
+width: 60%;
 margin: 30px;
-}
-.testimonial:hover{
-    background-color: #e2e2e2;
-
+border-radius:10px ;
 }
 .testimonial hr{
     width: 20%;
+    background-color: #fd885d;
+    border: none;
+    height: 5px;
+    border-radius: 15px;
 }
 .testimonial img{
     border-radius:100% ;
@@ -20,4 +21,24 @@ margin: 30px;
 .testimonial p{
     text-align: center;
     margin: 15px;
+}
+.testimonial .comment{
+    color: gray;
+}
+.testimonial .name{
+    font-size: 20px;
+    font-weight: lighter;
+    margin-bottom: 0;
+}
+.testimonial .testTitle{
+    color: gray;
+    font-size: 18px;
+    margin-top: 10px;
+}
+@media screen and (max-width: 1024px){
+    .testimonial{
+        width: 90%;
+        margin: 0 auto;
+        margin: 30px;
+    }
 }

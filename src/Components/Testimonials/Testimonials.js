@@ -6,21 +6,21 @@ class Testimonials extends React.Component{
         const testimonials = [
             {
                 name:'Sophia Lambert',
-                title:'Marketing Manager',
+                title:'Software Developer',
                 comment:'Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.',
                 image:'https://www.bootstrapdash.com/demo/simple/images/face2.jpg',
             },
             {
-                name:'Sophia Lambert',
+                name:'Tony Martinez',
                 title:'Marketing Manager',
                 comment:'Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.',
-                image:'https://www.bootstrapdash.com/demo/simple/images/face2.jpg',
+                image:'https://www.bootstrapdash.com/demo/simple/images/face1.jpg',
             },
             {
-                name:'Sophia Lambert',
-                title:'Marketing Manager',
+                name:'Cody Armstrong',
+                title:'Accountant',
                 comment:'Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.',
-                image:'https://www.bootstrapdash.com/demo/simple/images/face2.jpg',
+                image:'https://www.bootstrapdash.com/demo/simple/images/face3.jpg',
             }
         ]
         return testimonials.map(testimonial=>{
