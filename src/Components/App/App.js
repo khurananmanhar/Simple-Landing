@@ -5,6 +5,7 @@ import Services from '../Services/Services';
 import ExtraServices from '../Services/Extra';
 import Blogs from '../Blog/Blogs';
 import Testimonials from '../Testimonials/Testimonials';
+import Contact from '../Contact/Contact';
 
 function App() {
   return (
@@ -22,10 +23,11 @@ function App() {
       <div className="blogsDiv" id="blogs">
         <Blogs/>
       </div>
-      <h2 className="divTitles">What our customers have to say</h2>
-      <div className="testContainer">
+      <h2 className="divTitles">Testimonials</h2>
+      <div className="testContainer" id="testis">
         <Testimonials/>
       </div>
+      <Contact/>
           </div>
   );
 }

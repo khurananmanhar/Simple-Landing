@@ -11,7 +11,7 @@ class Nav extends React.Component{
                     <a href="#root" className="current">Home</a>
                     <a href="#about">About</a>
                     <a href="#blogs">Blog</a>
-                    <a href="#root">Testimonials</a>
+                    <a href="#testis">Testimonials</a>
                 </div>
             </div>
         )
