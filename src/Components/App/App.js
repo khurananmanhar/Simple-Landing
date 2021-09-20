@@ -6,6 +6,7 @@ import ExtraServices from '../Services/Extra';
 import Blogs from '../Blog/Blogs';
 import Testimonials from '../Testimonials/Testimonials';
 import Contact from '../Contact/Contact';
+import Footer from '../Footer/Footer';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Testimonials/>
       </div>
       <Contact/>
+      <Footer/>
           </div>
   );
 }
